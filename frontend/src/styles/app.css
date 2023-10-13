@@ -1,0 +1,34 @@
+.header-area .main-nav .logo img {
+    width: 159px;
+    height: auto;
+    margin-top: 5px;
+}
+
+.header-area {
+    min-height: 70px;
+}
+
+.header-area {
+    background-color: #003366;
+    height: 70px;
+}
+
+.main-container {
+    margin-bottom: 100px;
+}
+
+footer {
+    background-color: #003366;
+    text-align: center;
+    padding: 15px 0px;
+    z-index: 300;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    color: #fff;
+    margin-bottom: 0;
+}
