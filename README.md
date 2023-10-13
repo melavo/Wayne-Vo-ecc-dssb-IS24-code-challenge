@@ -1,4 +1,4 @@
-**Wayne-Vo-ecc-dssb-IS24-code-challenge**
+## Wayne-Vo-ecc-dssb-IS24-code-challenge
 
 **This is a comprehensive product management web application developed using ReactJS and NextJS for the frontend and NodeJS for the backend. Users can seamlessly add, edit, and view a roster of available products.**
 
@@ -51,9 +51,6 @@ To utilize this application, adhere to the following instructions:
 
 - 8.The data table consists of sorting if you click on the column label, paging and the ability to search this project, permitting users to narrow down products by roles like 'Scrum Master' or 'Developer'.
 
-<!---->
-
--
 
 
 ## API Endpoints
@@ -187,9 +184,22 @@ This endpoint will delete product using specified product Id.
   - **Content**: Error message indicating that the product with the Id was not found.
 
 
-### GET '/api/healthcheck'
+### Health Check
 
-This endpoint returns a http 200 response indicating api component is healthy
+This endpoint that returns the health of the service.
+
+- **URL**: `/api/health`
+- **Method**: `GET`
+  
+- **Success Response**:
+
+  - **Code**: `200 OK`
+  - **Content**: JSON object representing status OK.
+
+- **Error Responses**:
+
+  - **Code**: `500 Internal Server Error`
+  - **Content**: `Unable to read/write data file`.
 
 
 ## Data
