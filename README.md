@@ -32,24 +32,24 @@ To set up this application, adhere to the following instructions:
 
 To utilize this application, adhere to the following instructions:
 
-- 1\. Navigate to the designated project directory.
+ 1\. Navigate to the designated project directory.
 
-- 2\. Initiate the application by executing: 
+2\. Initiate the application by executing: 
 
   - Start the server for the Backend: npm run start:backend
   - Start the server for the Frontend: npm run start:frontend
 
-- 3\. Access the application in your web browser at[ http://localhost:3000/](http://localhost:3000/).
+   3\. Access the application in your web browser at[ http://localhost:3000/](http://localhost:3000/).
 
-- 4\. Upon launching, a table showcasing a list of current products will be displayed.
+4\. Upon launching, a table showcasing a list of current products will be displayed.
 
-- 5.To add a new product, simply click on the "Add New" button. This action will prompt a popup modal for product details.
+ 5\.To add a new product, simply click on the "Add New" button. This action will prompt a popup modal for product details.
 
-- 6.To edit an existing product, select the desired product. This will activate the Edit Icon. Click on it to make the necessary changes.
+  6\. To edit an existing product, select the desired product. This will activate the Edit Icon. Click on it to make the necessary changes.
 
-- 7.To delete an existing product, select the desired product. This will activate the Delete Icon. Click on it to make the necessary changes.
+  7\. To delete an existing product, select the desired product. This will activate the Delete Icon. Click on it to make the necessary changes.
 
-- 8.The data table consists of sorting if you click on the column label, paging and the ability to search this project, permitting users to narrow down products by roles like 'Scrum Master' or 'Developer'.
+  8\. The data table consists of sorting if you click on the column label, paging and the ability to search this project, permitting users to narrow down products by roles like 'Scrum Master' or 'Developer'.
 
 
 
